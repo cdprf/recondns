@@ -514,27 +514,6 @@ If you want to contribute to this project you can do it in multiple ways:
 ### DigitalOcean referral link
 <a href="https://www.digitalocean.com/?refcode=f362a6e193a1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
 
-### GitHub sponsorship
-[Sponsor](https://github.com/sponsors/blackcode666)
-
-# Sponsors ❤️
-**This section shows the current financial sponsors of this project**
-
-[<img src="https://pbs.twimg.com/profile_images/1360304248534282240/MomOFi40_400x400.jpg" width="100" height=auto>](https://github.com/0xtavian)
-[<img src="https://pbs.twimg.com/profile_images/1296513249702285312/fpHFDhyc_400x400.jpg" width="100" height=auto>](https://github.com/reconmap)
-[<img src="https://pbs.twimg.com/profile_images/1221701173864017922/Wg_Q7HoD_400x400.jpg" width="100" height=auto>](https://github.com/r1p)
-
-# Thanks 
-* Thank you for lending a helping hand towards the development of the project!
-
-- [Spyse](https://spyse.com/)
-- [Networksdb](https://networksdb.io/)
-- [Intelx](https://intelx.io/)
-- [BinaryEdge](https://www.binaryedge.io/)
-- [Censys](https://censys.io/)
-- [CIRCL](https://www.circl.lu/)
-- [Whoxy](https://www.whoxy.com/)
-
 # Disclaimer
 Usage of this program for attacking targets without consent is illegal. It is the user's responsibility to obey all applicable laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program. Please use responsibly.
 
