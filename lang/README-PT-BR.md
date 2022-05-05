@@ -35,7 +35,7 @@ dos subdomínios que ajudam você a selecionar os subdomínios mais interesantes
 O mesmo também realiza vários checks de vulnerabilidades como XSS, Open Redirects, SSRF, CRLF, LFI, SQLi, testes de SSL, DNS Zone Transfers e muito mais. Além disso
 é perfomado diversas técnicas de OSINT, fuzzing de diretórios, dorking, escaneamento de portan e scan do nuclei no seu alvo.
 
-Então, o que está esperando? Bora! Bora! Bora! :boom:
+Então, o que está esperando? Bora! :boom:
 
 📔 Tabela de Conteúdos
 -----------------
