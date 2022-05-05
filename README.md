@@ -1,34 +1,37 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/blackcode666/reconSIDE"><img src="https://github.com/blackcode666/reconSIDE/blob/main/images/banner.png" alt="reconside"></a>
+  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/banner.png" alt="recondns"></a>
   <br>
-  reconSIDE
+  recondns
   <br>
 </h1>
 
 
 <p align="center">
-  <a href="https://github.com/blackcode666/reconSIDE/releases/tag/v3.0.1">
-    <img src="https://img.shields.io/badge/release-v3.0.1-green">
+  <a href="https://github.com/blackcode666/recondns/releases/tag/v2.2.2">
+    <img src="https://img.shields.io/badge/release-v2.2.2-green">
   </a>
    </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
       <img src="https://img.shields.io/badge/license-GPL3-_red.svg">
   </a>
-      <a href="https://github.com/blackcode666/reconSIDE/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/blackcode666/reconSIDE.svg">
+    <a href="https://github.com/blackcode666/recondns/issues?q=is%3Aissue+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-closed-raw/six2dez/recondns.svg">
   </a>
-  <a href="https://hub.docker.com/r/blackcode666/reconSIDE">
-    <img alt="Docker Cloud Build Status" src="https://img.shields.io/docker/cloud/build/blackcode666/reconSIDE">
+  <a href="https://github.com/blackcode666/recondns/wiki">
+    <img src="https://img.shields.io/badge/doc-wiki-blue.svg">
+  </a>
+  <a href="https://t.me/joinchat/H5bAaw3YbzzmI5co">
+    <img src="https://img.shields.io/badge/telegram-@recondns-blue.svg">
   </a>
 </p>
 
 
 <h3 align="center">Summary</h3>
 
-**ReconSIDE** automates the entire process of reconnaisance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target.
+**recondns** automates the entire process of reconnaisance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target.
 
-ReconSIDE uses lot of techniques (passive, bruteforce, permutations, certificate transparency, source code scraping, analytics, DNS records...) for subdomain enumeration which helps you getting the maximum and the most interesting subdomains so that you be ahead of the competition.
+recondns uses lot of techniques (passive, bruteforce, permutations, certificate transparency, source code scraping, analytics, DNS records...) for subdomain enumeration which helps you getting the maximum and the most interesting subdomains so that you be ahead of the competition.
 
 It also performs various vulnerability checks like XSS, Open Redirects, SSRF, CRLF, LFI, SQLi, SSL tests, SSTI, DNS zone transfers, and much more. Along with these, it performs OSINT techniques, directory fuzzing, dorking, ports scanning, screenshots, nuclei scan on your target.
 
@@ -71,28 +74,28 @@ So, what are you waiting for Go! Go! Go! :boom:
 
 ## a) In your PC/VPS/VM
 
-> You can check out our wiki for the installation guide [Installation Guide](https://github.com/backcode666/reconSIDE/wiki/0.-Installation-Guide) :book:
+> You can check out our wiki for the installation guide [Installation Guide](https://github.com/six2dez/recondns/wiki/0.-Installation-Guide) :book:
 
 - Requires [Golang](https://golang.org/dl/) > **1.15.0+** installed and paths correctly set (**$GOPATH**, **$GOROOT**)
 
 ```bash
-git clone https://github.com/backcode666/reconSIDE
-cd reconside/
+git clone https://github.com/six2dez/recondns
+cd recondns/
 ./install.sh
-./reconside.sh -d target.com -r
+./recondns.sh -d target.com -r
 ```
 
 ## b) Docker Image 🐳 (3 options)
 
 - Pull the image
 ```bash
-$ docker pull backcode666/reconSIDE:main
+$ docker pull six2dez/recondns:main
 ```
 - Run the container
 ```
 $ docker run -it --rm \
-  -v "${PWD}/OutputFolder/":'/reconSIDE/Recon/' \
-  backcode666/reconSIDE:main -d example.com -r
+  -v "${PWD}/OutputFolder/":'/recondns/Recon/' \
+  six2dez/recondns:main -d example.com -r
 ```
 
 However, if you wish to:
@@ -100,12 +103,12 @@ However, if you wish to:
 2. Build your own container
 3. Build an Axiom Controller on top of the official image
 
-Please refer to the [Docker](https://github.com/backcode666/reconSIDE/wiki/4.-Docker) documentation.
+Please refer to the [Docker](https://github.com/six2dez/recondns/wiki/4.-Docker) documentation.
 
 # ⚙️ Config file:
-> A detailed explaintion of config file can be found here [Configuration file](https://github.com/backcode666/reconSIDE/wiki/3.-Configuration-file) :book:
+> A detailed explaintion of config file can be found here [Configuration file](https://github.com/six2dez/recondns/wiki/3.-Configuration-file) :book:
 
-- Through ```reconside.cfg``` file the whole execution of the tool can be controlled.
+- Through ```recondns.cfg``` file the whole execution of the tool can be controlled.
 - Hunters can set various scanning modes, execution preferences, tools, config files, APIs/TOKENS, personalized wordlists and much more.
 
 <details>
@@ -114,14 +117,14 @@ Please refer to the [Docker](https://github.com/backcode666/reconSIDE/wiki/4.-Do
 
 ```yaml
 #################################################################
-#			reconside config file			#
+#			recondns config file			#
 #################################################################
 
 # General values
 tools=~/Tools
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 profile_shell=".$(basename $(echo $SHELL))rc"
-reconside_version=$(git rev-parse --abbrev-ref HEAD)-$(git describe --tags)
+recondns_version=$(git rev-parse --abbrev-ref HEAD)-$(git describe --tags)
 generate_resolvers=false
 proxy_url="http://127.0.0.1:8080/"
 #dir_output=/custom/output/path
@@ -282,11 +285,11 @@ resolvers_trusted=${tools}/resolvers_trusted.txt
 # Will not start a new fleet if one exist w/ same name and size (or larger)
 # AXIOM=false Uncomment only to overwrite command line flags
 AXIOM_FLEET_LAUNCH=false
-AXIOM_FLEET_NAME="reconside"
+AXIOM_FLEET_NAME="recondns"
 AXIOM_FLEET_COUNT=5
 AXIOM_FLEET_REGIONS="eu-central"
 AXIOM_FLEET_SHUTDOWN=true
-# This is a script on your reconside host that might prep things your way...
+# This is a script on your recondns host that might prep things your way...
 #AXIOM_POST_START="~/Tools/axiom_config.sh"
 AXIOM_EXTRA_ARGS="" # Leave empty if you don't want to add extra arguments
 #AXIOM_EXTRA_ARGS="--rm-logs" # Example
@@ -313,7 +316,7 @@ reset='\033[0m'
 
 # Usage:
 
-> Check out the wiki section to know which flag performs what all steps/attacks [Usage Guide](https://github.com/backcode666/reconSIDE/wiki/2.-Usage-Guide) :book:
+> Check out the wiki section to know which flag performs what all steps/attacks [Usage Guide](https://github.com/six2dez/recondns/wiki/2.-Usage-Guide) :book:
 
 **TARGET OPTIONS**
 
@@ -352,60 +355,60 @@ reset='\033[0m'
 **To perform a full recon on single target**
 
 ```bash
-./reconside.sh -d target.com -r
+./recondns.sh -d target.com -r
 ```
 
 **To perform a full recon on a list of targets**
 
 ```bash
-./reconside.sh -l sites.txt -r -o /output/directory/
+./recondns.sh -l sites.txt -r -o /output/directory/
 ```
 
 **Perform full recon with more time intense tasks** *(VPS intended only)*
 
 ```bash
-./reconside.sh -d target.com -r --deep -o /output/directory/
+./recondns.sh -d target.com -r --deep -o /output/directory/
 ```
 
 **Perform recon in a multi domain target**
 
 ```bash
-./reconside.sh -m company -l domains_list.txt -r
+./recondns.sh -m company -l domains_list.txt -r
 ```
 
 **Perform recon with axiom integration**
 
 ```bash
-./reconside.sh -d target.com -r -v
+./recondns.sh -d target.com -r -v
 ```
 
  **Perform all steps (whole recon + all attacks) a.k.a. YOLO mode**
 
 ```bash
-./reconside.sh -d target.com -a
+./recondns.sh -d target.com -a
 ```
 
 **Show help section**
 
 ```bash
-./reconside.sh -h
+./recondns.sh -h
 ```
 
 # Axiom Support: :cloud:
 ![](https://i.ibb.co/Jzrgkqt/axiom-readme.png)
-> Check out the wiki section for more info [Axiom Support](https://github.com/backcode666/reconSIDE/wiki/5.-Axiom-version)
-* As reconside actively hits the target with a lot of web traffic, hence there was a need to move to Axiom distributing the work load among various instances leading to reduction of execution time.
-* During the configuration of axiom you need to select `reconside` as provisoner.
-* You can create your own axiom's fleet before running reconSIDE or let reconside to create and destroy it automatically just modifying reconside.cfg file.
+> Check out the wiki section for more info [Axiom Support](https://github.com/six2dez/recondns/wiki/5.-Axiom-version)
+* As recondns actively hits the target with a lot of web traffic, hence there was a need to move to Axiom distributing the work load among various instances leading to reduction of execution time.
+* During the configuration of axiom you need to select `recondns` as provisoner.
+* You can create your own axiom's fleet before running recondns or let recondns to create and destroy it automatically just modifying recondns.cfg file.
 
 # BBRF Support: :computer:
-* To add reconSIDE results to your [BBRF instance](https://github.com/honoki/bbrf-server) just add IP and credentials on reconside.cfg file section dedicated to bbrf.
+* To add recondns results to your [BBRF instance](https://github.com/honoki/bbrf-server) just add IP and credentials on recondns.cfg file section dedicated to bbrf.
 * During the execution of the scans the results will be added dinamically when each step ends.
 * Even you can set up locally your BBRF instance to be able to visualize your results in a fancy web UI.
 
 # Sample video:
 
-![Video](images/reconside.gif)
+![Video](images/recondns.gif)
 
 # :fire: Features :fire:
 
@@ -466,7 +469,7 @@ reset='\033[0m'
 ## Extras
 - Multithread ([Interlace](https://github.com/codingo/Interlace))
 - Custom resolvers generated list ([dnsvalidator](https://github.com/vortexau/dnsvalidator))
-- Docker container included and [DockerHub](https://hub.docker.com/r/six2dez/reconside) integration
+- Docker container included and [DockerHub](https://hub.docker.com/r/six2dez/recondns) integration
 - Allows IP/CIDR as target
 - Resume the scan from last performed step
 - Custom output folder option
@@ -487,10 +490,10 @@ reset='\033[0m'
 Follow these simple steps to end up having a private repository with your `API Keys` and `/Recon` data.
 
 * Create a private __blank__ repository on `Git(Hub|Lab)` (Take into account size limits regarding Recon data upload)
-* Clone your project: `git clone https://gitlab.com/example/reconside-data`
-* Get inside the cloned repository: `cd reconside-data`
+* Clone your project: `git clone https://gitlab.com/example/recondns-data`
+* Get inside the cloned repository: `cd recondns-data`
 * Create branch with an empty commit: `git commit --allow-empty -m "Empty commit"`
-* Add official repo as a new remote: `git remote add upstream https://github.com/backcode666/reconSIDE` (`upstream` is an example)
+* Add official repo as a new remote: `git remote add upstream https://github.com/six2dez/recondns` (`upstream` is an example)
 * Update upstream's repo: `git fetch upstream`
 * Rebase current branch with the official one: `git rebase upstream/main master`
 
@@ -502,13 +505,13 @@ Follow these simple steps to end up having a private repository with your `API K
 ## How to contribute:
 
 If you want to contribute to this project you can do it in multiple ways:
-- Submitting an [issue](https://github.com/backcode666/reconSIDE/issues/new/choose) because you have found a bug or you have any suggestion or request.
-- Making a Pull Request from [dev](https://github.com/backcode666/reconSIDE/tree/dev) branch because you want to improve the code or add something to the script.
+- Submitting an [issue](https://github.com/six2dez/recondns/issues/new/choose) because you have found a bug or you have any suggestion or request.
+- Making a Pull Request from [dev](https://github.com/six2dez/recondns/tree/dev) branch because you want to improve the code or add something to the script.
 
 ## Need help? :information_source:
 
-- Take a look at the [wiki](https://github.com/backcode666/reconSIDE/wiki) section.
-- Check [FAQ](https://github.com/backcode666/reconSIDE/wiki/7.-FAQs) for commonly asked questions.
+- Take a look at the [wiki](https://github.com/six2dez/recondns/wiki) section.
+- Check [FAQ](https://github.com/six2dez/recondns/wiki/7.-FAQs) for commonly asked questions.
 - Ask for help in the [Telegram group](https://t.me/joinchat/TO_R8NYFhhbmI5co)
 
 ## Support this project
@@ -545,3 +548,4 @@ Usage of this program for attacking targets without consent is illegal. It is th
 
 The material contained in this repository is licensed under GNU GPLv3.
 # blackcode
+# recondns
