@@ -8,27 +8,18 @@
 
 
 <p align="center">
-  <a href="https://github.com/six2dez/reconftw/releases/tag/v2.1.1">
-    <img src="https://img.shields.io/badge/release-v2.1.1-green">
+  <a href="https://github.com/blackcode666/recondns/releases/tag/v2.2.2">
+    <img src="https://img.shields.io/badge/release-v2.2.2-green">
   </a>
    </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
       <img src="https://img.shields.io/badge/license-GPL3-_red.svg">
   </a>
-  <a href="https://twitter.com/Six2dez1">
-    <img src="https://img.shields.io/badge/twitter-%40Six2dez1-blue">
+    <a href="https://github.com/blackcode666/recondns/issues?q=is%3Aissue+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-closed-raw/six2dez/recondns.svg">
   </a>
-    <a href="https://github.com/six2dez/reconftw/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/six2dez/reconftw.svg">
-  </a>
-  <a href="https://github.com/six2dez/reconftw/wiki">
+  <a href="https://github.com/blackcode666/recondns/wiki">
     <img src="https://img.shields.io/badge/doc-wiki-blue.svg">
-  </a>
-  <a href="https://t.me/joinchat/H5bAaw3YbzzmI5co">
-    <img src="https://img.shields.io/badge/telegram-@ReconFTW-blue.svg">
-  </a>
-  <a href="https://hub.docker.com/r/six2dez/reconftw">
-    <img alt="Docker Cloud Build Status" src="https://img.shields.io/docker/cloud/build/six2dez/reconftw">
   </a>
 </p>
 
