@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/master/images/banner.png" alt="recondns"></a>
+  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/banner.png" alt="recondns"></a>
   <br>
   reconDNS
   <br>
