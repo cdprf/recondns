@@ -18,10 +18,10 @@ FROM kalilinux/kali-rolling:latest AS base
 
 LABEL org.label-schema.name='reconftw'
 LABEL org.label-schema.description='A simple script for full recon'
-LABEL org.label-schema.usage='https://github.com/six2dez/reconftw'
-LABEL org.label-schema.url='https://github.com/six2dez/reconftw'
-LABEL org.label-schema.docker.cmd.devel='docker run --rm -ti six2dez/reconftw'
-LABEL MAINTAINER="six2dez"
+LABEL org.label-schema.usage='https://github.com/blackcode666/recondns'
+LABEL org.label-schema.url='https://github.com/blackcode666/recondns'
+LABEL org.label-schema.docker.cmd.devel='docker run --rm -ti blackcode666/recondns'
+LABEL MAINTAINER="blackcode666"
 
 ARG COLLAB_SERVER
 ARG XSS_SERVER
@@ -86,11 +86,12 @@ cd /root/.axiom/interact
 touch /root/.axiom/axiom.json
 touch /root/.axiom/interact/includes/functions.sh
 
-###>> Install reconFTW <<###
+###>> Install reconDNS <<###
 mkdir -p /root/Tools
-mkdir -p /reconftw
-git clone https://github.com/six2dez/reconftw.git /reconftw
-cd /reconftw
+mkdir -p /recondns
+git clone https://github.com/blackcode666/recondns.git /recondns
+cd /recondns
+chmod +x install.sh
 ./install.sh
 
 ###>> Restore .bashrc <<###
@@ -117,8 +118,8 @@ COPY notify.conf /root/.config/notify/notify.conf
 ## Issue 271
 EXPOSE 85-90
 
-WORKDIR /reconftw
+WORKDIR /recondns
 
 SHELL [ "/bin/bash", "-c" ]
-ENTRYPOINT [ "./reconftw.sh" ]
+ENTRYPOINT [ "./recondns.sh" ]
 CMD [ "--help" ]
