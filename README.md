@@ -101,10 +101,10 @@ However, if you wish to:
 2. Build your own container
 3. Build an Axiom Controller on top of the official image
 
-Please refer to the [Docker](https://github.com/blackcode666/recondns/wiki/4.-Docker) documentation.
+Please refer to the [Docker](https://github.com/blackcode666/recondns/wiki/Docker) documentation.
 
 # ⚙️ Config file:
-> A detailed explaintion of config file can be found here [Configuration file](https://github.com/blackcode666/recondns/wiki/3.-Configuration-file) :book:
+> A detailed explaintion of config file can be found here [Configuration file](https://github.com/blackcode666/recondns/wiki/Configuration-file) :book:
 
 - Through ```recondns.cfg``` file the whole execution of the tool can be controlled.
 - Hunters can set various scanning modes, execution preferences, tools, config files, APIs/TOKENS, personalized wordlists and much more.
@@ -314,7 +314,7 @@ reset='\033[0m'
 
 # Usage:
 
-> Check out the wiki section to know which flag performs what all steps/attacks [Usage Guide](https://github.com/blackcode666/recondns/wiki/2.-Usage-Guide) :book:
+> Check out the wiki section to know which flag performs what all steps/attacks [Usage Guide](https://github.com/blackcode666/recondns/wiki/Usage-Guide) :book:
 
 **TARGET OPTIONS**
 
@@ -394,7 +394,7 @@ reset='\033[0m'
 
 # Axiom Support: :cloud:
 ![](https://i.ibb.co/Jzrgkqt/axiom-readme.png)
-> Check out the wiki section for more info [Axiom Support](https://github.com/blackcode666/recondns/wiki/5.-Axiom-version)
+> Check out the wiki section for more info [Axiom Support](https://github.com/blackcode666/recondns/wiki/Axiom-Version)
 * As recondns actively hits the target with a lot of web traffic, hence there was a need to move to Axiom distributing the work load among various instances leading to reduction of execution time.
 * During the configuration of axiom you need to select `recondns` as provisoner.
 * You can create your own axiom's fleet before running recondns or let recondns to create and destroy it automatically just modifying recondns.cfg file.
