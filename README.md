@@ -518,11 +518,9 @@ Usage of this program for attacking targets without consent is illegal. It is th
   <br>
   <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/logo_Omar_Pentester.png" alt="recondns"></a>
   <br>
-  reconDNS
+  blackcode666 - reconDNS - Omar Passos
   <br>
 </h1>
 
-
 The material contained in this repository is licensed under GNU GPLv3.
-# blackcode666 - reconDNS - Omar Passos
 
