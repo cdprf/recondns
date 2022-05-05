@@ -112,7 +112,7 @@ Please refer to the [Docker](https://github.com/blackcode666/recondns/wiki/Docke
 
 ```yaml
 #################################################################
-#			recondns config file			#
+#			reconDNS config file			#
 #################################################################
 
 # General values
