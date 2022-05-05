@@ -59,3 +59,14 @@ Então, o que está esperando? Bora! :boom:
   - [Como contribuir:](#how-to-contribute)
   - [Precisa de ajuda? :information_source:](#need-help-information_source)
 - [Isenção de responsabilidade](#disclaimer)
+
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/logo_Omar_Pentester.png" alt="recondns"></a>
+  <br>
+  blackcode666 - reconDNS - Omar Passos
+  <br>
+</h1>
+
+The material contained in this repository is licensed under GNU GPLv3.
