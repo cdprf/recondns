@@ -21,9 +21,6 @@
   <a href="https://github.com/blackcode666/recondns/wiki">
     <img src="https://img.shields.io/badge/doc-wiki-blue.svg">
   </a>
-  <a href="https://t.me/joinchat/H5bAaw3YbzzmI5co">
-    <img src="https://img.shields.io/badge/telegram-@recondns-blue.svg">
-  </a>
 </p>
 
 
