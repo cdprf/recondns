@@ -101,7 +101,7 @@ repos["pydictor"]="LandGrey/pydictor"
 repos["gitdorks_go"]="damit5/gitdorks_go"
 
 printf "\n\n${bgreen}#######################################################################${reset}\n"
-printf "${bgreen} recondns installer/updater script ${reset}\n\n"
+printf "${bgreen} reconDNS installer/updater script ${reset}\n\n"
 printf "${yellow} This may take time. So, go grab a coffee! ${reset}\n\n"
 
 if [[ $(id -u | grep -o '^0$') == "0" ]]; then
