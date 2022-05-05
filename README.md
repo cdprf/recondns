@@ -403,7 +403,7 @@ reset='\033[0m'
 
 # Sample video:
 
-![Video](https://github.com/blackcode666/recondns/blob/master/images/recondns.gif)
+![Video](https://github.com/blackcode666/recondns/blob/main/images/recondns.gif)
 
 # :fire: Features :fire:
 
