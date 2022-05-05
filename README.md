@@ -32,6 +32,42 @@ reconDNS uses lot of techniques (passive, bruteforce, permutations, certificate 
 
 It also performs various vulnerability checks like XSS, Open Redirects, SSRF, CRLF, LFI, SQLi, SSL tests, SSTI, DNS zone transfers, and much more. Along with these, it performs OSINT techniques, directory fuzzing, dorking, ports scanning, screenshots, nuclei scan on your target.
 
+Some of the tools used:
+
+📔 Tools of Contents
+-----------------
+- [💿 Uro:](https://github.com/evilsocket/uroboros)
+- [💿 gf:](https://github.com/tomnomnom/gf)
+- [💿 qsreplace:](https://github.com/tomnomnom/qsreplace)
+- [💿 Amass:](https://github.com/OWASP/Amass)
+- [💿 ffuf:](https://github.com/ffuf/ffuf)
+- [💿 github-subdomains:](https://github.com/gwen001/github-subdomains)
+- [💿 waybackurls:](https://github.com/tomnomnom/waybackurls)
+- [💿 nuclei:](https://github.com/projectdiscovery/nuclei/v2/cmd/nuclei)
+- [💿 anew:](https://github.com/tomnomnom/anew)
+- [💿 notify:](https://github.com/projectdiscovery/notify/cmd/notify)
+- [💿 unfurl:](https://github.com/tomnomnom/unfurl)
+- [💿 httpx:](https://github.com/projectdiscovery/httpx/cmd/httpx)
+- [💿 github-endpoints:](https://github.com/gwen001/github-endpoints)
+- [💿 dnsx:](https://github.com/projectdiscovery/dnsx/cmd/dnsx)
+- [💿 gau:](https://github.com/lc/gau/v2/cmd/gau)
+- [💿 subjs:](https://github.com/lc/subjs)
+- [💿 Gxss:](https://github.com/KathanP19/Gxss)
+- [💿 gospider:](https://github.com/jaeles-project/gospider)
+- [💿 crlfuzz:](https://github.com/dwisiswant0/crlfuzz/cmd/crlfuzz)
+- [💿 dalfox:](https://github.com/hahwul/dalfox/v2)
+- [💿 puredns:](https://github.com/d3mondev/puredns/v2)
+- [💿 interactsh-client:](https://github.com/projectdiscovery/interactsh/cmd/interactsh-client)
+- [💿 analyticsrelationships:](https://github.com/Josue87/analyticsrelationships)
+- [💿 gotator:](https://github.com/Josue87/gotator)
+- [💿 roboxtractor:](https://github.com/Josue87/roboxtractor)
+- [💿 mapcidr:](https://github.com/projectdiscovery/mapcidr/cmd/mapcidr)
+- [💿 ipcdn:](https://github.com/six2dez/ipcdn)
+- [💿 dnstake:](https://github.com/pwnesia/dnstake/cmd/dnstake)
+- [💿 gowitness:](https://github.com/sensepost/gowitness)
+- [💿 cero:](https://github.com/glebarez/cero)
+- [💿 gitdorks_go:](https://github.com/damit5/gitdorks_go)
+
 So, what are you waiting for Go! :boom:
 
 
