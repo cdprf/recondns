@@ -32,6 +32,8 @@ reconDNS uses lot of techniques (passive, bruteforce, permutations, certificate 
 
 It also performs various vulnerability checks like XSS, Open Redirects, SSRF, CRLF, LFI, SQLi, SSL tests, SSTI, DNS zone transfers, and much more. Along with these, it performs OSINT techniques, directory fuzzing, dorking, ports scanning, screenshots, nuclei scan on your target.
 
+- [Translate to português:](https://github.com/blackcode666/recondns/blob/main/lang/README-PT-BR.md)
+
 Some of the tools used:
 
 📔 Tools of Contents
