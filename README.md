@@ -71,7 +71,7 @@ So, what are you waiting for Go! :boom:
 
 ## a) In your PC/VPS/VM
 
-> You can check out our wiki for the installation guide [Installation Guide](https://github.com/blackcode666/recondns/wiki/0.-Installation-Guide) :book:
+> You can check out our wiki for the installation guide [Installation Guide](https://github.com/blackcode666/recondns/wiki/Installation-Guide) :book:
 
 - Requires [Golang](https://golang.org/dl/) > **1.15.0+** installed and paths correctly set (**$GOPATH**, **$GOROOT**)
 
