@@ -506,7 +506,7 @@ If you want to contribute to this project you can do it in multiple ways:
 ## Need help? :information_source:
 
 - Take a look at the [wiki](https://github.com/blackcode666/recondns/wiki) section.
-- Check [FAQ](https://github.com/blackcode666/recondns/wiki/7.-FAQs) for commonly asked questions.
+- Check [FAQ](https://github.com/blackcode666/recondns/wiki/Faq) for commonly asked questions.
 
 ### DigitalOcean referral link
 <a href="https://www.digitalocean.com/?refcode=f362a6e193a1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
