@@ -58,7 +58,4 @@ Então, o que está esperando? Bora! :boom:
     - [Comandos principais:](#main-commands)
   - [Como contribuir:](#how-to-contribute)
   - [Precisa de ajuda? :information_source:](#need-help-information_source)
-  - [Dê suporte ao projeto me comprando um café:](#you-can-support-this-work-buying-me-a-coffee)
-- [Patrocinadores ❤️](#sponsors-️)
-- [Agradecimentos :pray:](#thanks-pray)
 - [Isenção de responsabilidade](#disclaimer)
