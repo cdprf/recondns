@@ -16,7 +16,7 @@
       <img src="https://img.shields.io/badge/license-GPL3-_red.svg">
   </a>
     <a href="https://github.com/blackcode666/recondns/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/six2dez/recondns.svg">
+    <img src="https://img.shields.io/github/issues-closed-raw/blackcode666/recondns.svg">
   </a>
   <a href="https://github.com/blackcode666/recondns/wiki">
     <img src="https://img.shields.io/badge/doc-wiki-blue.svg">
@@ -26,7 +26,7 @@
 
 <h3 align="center">Summary</h3>
 
-**recondns** automates the entire process of reconnaisance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target.
+**reconDNS** automates the entire process of reconnaisance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target.
 
 recondns uses lot of techniques (passive, bruteforce, permutations, certificate transparency, source code scraping, analytics, DNS records...) for subdomain enumeration which helps you getting the maximum and the most interesting subdomains so that you be ahead of the competition.
 
