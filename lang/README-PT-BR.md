@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/blackcode666/reconSIDE"><img src="https://github.com/blackcode666/reconSIDE/blob/main/images/banner.png" alt="reconside"></a>
+  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/master/images/banner.png" alt="recondns"></a>
   <br>
   reconFTW
   <br>
@@ -16,7 +16,7 @@
       <img src="https://img.shields.io/badge/license-GPL3-_red.svg">
   </a>
     <a href="https://github.com/blackcode666/recondns/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/six2dez/recondns.svg">
+    <img src="https://img.shields.io/github/issues-closed-raw/blackcode666/recondns.svg">
   </a>
   <a href="https://github.com/blackcode666/recondns/wiki">
     <img src="https://img.shields.io/badge/doc-wiki-blue.svg">
