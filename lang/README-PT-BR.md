@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/master/images/banner.png" alt="recondns"></a>
   <br>
-  reconFTW
+  reconDNS
   <br>
 </h1>
 
