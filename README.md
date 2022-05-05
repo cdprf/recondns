@@ -58,11 +58,8 @@ So, what are you waiting for Go! :boom:
   - [How to contribute:](#how-to-contribute)
   - [Need help? :information_source:](#need-help-information_source)
   - [Support this project](#support-this-project)
-    - [Buymeacoffee](#buymeacoffee)
     - [DigitalOcean referral link](#digitalocean-referral-link)
     - [GitHub sponsorship](#github-sponsorship)
-- [Sponsors ❤️](#sponsors-️)
-- [Thanks :pray:](#thanks-pray)
 - [Disclaimer](#disclaimer)
 
 ---
@@ -518,5 +515,5 @@ If you want to contribute to this project you can do it in multiple ways:
 Usage of this program for attacking targets without consent is illegal. It is the user's responsibility to obey all applicable laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program. Please use responsibly.
 
 The material contained in this repository is licensed under GNU GPLv3.
-# blackcode666
+# blackcode666 - reconDNS - Omar Passos
 
