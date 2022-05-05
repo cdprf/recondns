@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/banner.png" alt="recondns"></a>
+  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/images/banner.png" alt="recondns"></a>
   <br>
   recondns
   <br>
@@ -35,7 +35,7 @@ recondns uses lot of techniques (passive, bruteforce, permutations, certificate 
 
 It also performs various vulnerability checks like XSS, Open Redirects, SSRF, CRLF, LFI, SQLi, SSL tests, SSTI, DNS zone transfers, and much more. Along with these, it performs OSINT techniques, directory fuzzing, dorking, ports scanning, screenshots, nuclei scan on your target.
 
-So, what are you waiting for Go! Go! Go! :boom:
+So, what are you waiting for Go! :boom:
 
 
 📔 Table of Contents
@@ -74,13 +74,14 @@ So, what are you waiting for Go! Go! Go! :boom:
 
 ## a) In your PC/VPS/VM
 
-> You can check out our wiki for the installation guide [Installation Guide](https://github.com/six2dez/recondns/wiki/0.-Installation-Guide) :book:
+> You can check out our wiki for the installation guide [Installation Guide](https://github.com/blackcode666/recondns/wiki/0.-Installation-Guide) :book:
 
 - Requires [Golang](https://golang.org/dl/) > **1.15.0+** installed and paths correctly set (**$GOPATH**, **$GOROOT**)
 
 ```bash
-git clone https://github.com/six2dez/recondns
+git clone https://github.com/blackcode666/recondns.git
 cd recondns/
+chmod +x install.sh
 ./install.sh
 ./recondns.sh -d target.com -r
 ```
@@ -89,13 +90,13 @@ cd recondns/
 
 - Pull the image
 ```bash
-$ docker pull six2dez/recondns:main
+$ docker pull blackcode666/recondns:main
 ```
 - Run the container
 ```
 $ docker run -it --rm \
   -v "${PWD}/OutputFolder/":'/recondns/Recon/' \
-  six2dez/recondns:main -d example.com -r
+  blackcode666/recondns:main -d example.com -r
 ```
 
 However, if you wish to:
@@ -103,10 +104,10 @@ However, if you wish to:
 2. Build your own container
 3. Build an Axiom Controller on top of the official image
 
-Please refer to the [Docker](https://github.com/six2dez/recondns/wiki/4.-Docker) documentation.
+Please refer to the [Docker](https://github.com/blackcode666/recondns/wiki/4.-Docker) documentation.
 
 # ⚙️ Config file:
-> A detailed explaintion of config file can be found here [Configuration file](https://github.com/six2dez/recondns/wiki/3.-Configuration-file) :book:
+> A detailed explaintion of config file can be found here [Configuration file](https://github.com/blackcode666/recondns/wiki/3.-Configuration-file) :book:
 
 - Through ```recondns.cfg``` file the whole execution of the tool can be controlled.
 - Hunters can set various scanning modes, execution preferences, tools, config files, APIs/TOKENS, personalized wordlists and much more.
@@ -316,7 +317,7 @@ reset='\033[0m'
 
 # Usage:
 
-> Check out the wiki section to know which flag performs what all steps/attacks [Usage Guide](https://github.com/six2dez/recondns/wiki/2.-Usage-Guide) :book:
+> Check out the wiki section to know which flag performs what all steps/attacks [Usage Guide](https://github.com/blackcode666/recondns/wiki/2.-Usage-Guide) :book:
 
 **TARGET OPTIONS**
 
@@ -396,7 +397,7 @@ reset='\033[0m'
 
 # Axiom Support: :cloud:
 ![](https://i.ibb.co/Jzrgkqt/axiom-readme.png)
-> Check out the wiki section for more info [Axiom Support](https://github.com/six2dez/recondns/wiki/5.-Axiom-version)
+> Check out the wiki section for more info [Axiom Support](https://github.com/blackcode666/recondns/wiki/5.-Axiom-version)
 * As recondns actively hits the target with a lot of web traffic, hence there was a need to move to Axiom distributing the work load among various instances leading to reduction of execution time.
 * During the configuration of axiom you need to select `recondns` as provisoner.
 * You can create your own axiom's fleet before running recondns or let recondns to create and destroy it automatically just modifying recondns.cfg file.
@@ -493,7 +494,7 @@ Follow these simple steps to end up having a private repository with your `API K
 * Clone your project: `git clone https://gitlab.com/example/recondns-data`
 * Get inside the cloned repository: `cd recondns-data`
 * Create branch with an empty commit: `git commit --allow-empty -m "Empty commit"`
-* Add official repo as a new remote: `git remote add upstream https://github.com/six2dez/recondns` (`upstream` is an example)
+* Add official repo as a new remote: `git remote add upstream https://github.com/blackcode666/recondns` (`upstream` is an example)
 * Update upstream's repo: `git fetch upstream`
 * Rebase current branch with the official one: `git rebase upstream/main master`
 
@@ -505,25 +506,19 @@ Follow these simple steps to end up having a private repository with your `API K
 ## How to contribute:
 
 If you want to contribute to this project you can do it in multiple ways:
-- Submitting an [issue](https://github.com/six2dez/recondns/issues/new/choose) because you have found a bug or you have any suggestion or request.
-- Making a Pull Request from [dev](https://github.com/six2dez/recondns/tree/dev) branch because you want to improve the code or add something to the script.
+- Submitting an [issue](https://github.com/blackcode666/recondns/issues/new/choose) because you have found a bug or you have any suggestion or request.
+- Making a Pull Request from [dev](https://github.com/blackcode666/recondns/tree/dev) branch because you want to improve the code or add something to the script.
 
 ## Need help? :information_source:
 
-- Take a look at the [wiki](https://github.com/six2dez/recondns/wiki) section.
-- Check [FAQ](https://github.com/six2dez/recondns/wiki/7.-FAQs) for commonly asked questions.
-- Ask for help in the [Telegram group](https://t.me/joinchat/TO_R8NYFhhbmI5co)
-
-## Support this project
-
-### Buymeacoffee
-[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png">](https://www.buymeacoffee.com/six2dez)
+- Take a look at the [wiki](https://github.com/blackcode666/recondns/wiki) section.
+- Check [FAQ](https://github.com/blackcode666/recondns/wiki/7.-FAQs) for commonly asked questions.
 
 ### DigitalOcean referral link
 <a href="https://www.digitalocean.com/?refcode=f362a6e193a1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
 
 ### GitHub sponsorship
-[Sponsor](https://github.com/sponsors/six2dez)
+[Sponsor](https://github.com/sponsors/blackcode666)
 
 # Sponsors ❤️
 **This section shows the current financial sponsors of this project**
@@ -532,7 +527,7 @@ If you want to contribute to this project you can do it in multiple ways:
 [<img src="https://pbs.twimg.com/profile_images/1296513249702285312/fpHFDhyc_400x400.jpg" width="100" height=auto>](https://github.com/reconmap)
 [<img src="https://pbs.twimg.com/profile_images/1221701173864017922/Wg_Q7HoD_400x400.jpg" width="100" height=auto>](https://github.com/r1p)
 
-# Thanks :pray:
+# Thanks 
 * Thank you for lending a helping hand towards the development of the project!
 
 - [Spyse](https://spyse.com/)
@@ -547,5 +542,5 @@ If you want to contribute to this project you can do it in multiple ways:
 Usage of this program for attacking targets without consent is illegal. It is the user's responsibility to obey all applicable laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program. Please use responsibly.
 
 The material contained in this repository is licensed under GNU GPLv3.
-# blackcode
-# recondns
+# blackcode666
+
