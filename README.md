@@ -516,7 +516,7 @@ Usage of this program for attacking targets without consent is illegal. It is th
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/banner.png" alt="recondns"></a>
+  <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/logo_Omar_Pentester.png" alt="recondns"></a>
   <br>
   reconDNS
   <br>
