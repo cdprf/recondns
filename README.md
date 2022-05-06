@@ -28,9 +28,11 @@
 
 **reconDNS** automates the entire process of reconnaisance for you. It outperforms the work of subdomain enumeration along with various vulnerability checks and obtaining maximum information about your target.
 
-reconDNS uses lot of techniques (passive, bruteforce, permutations, certificate transparency, source code scraping, analytics, DNS records...) for subdomain enumeration which helps you getting the maximum and the most interesting subdomains so that you be ahead of the competition.
+reconDNS uses lot of techniques (passive, bruteforce, permutations, certificate transparency, source code scraping, analytics, **DNS** records...) for subdomain enumeration which helps you getting the maximum and the most interesting subdomains so that you be ahead of the competition.
 
-It also performs various vulnerability checks like XSS, Open Redirects, SSRF, CRLF, LFI, SQLi, SSL tests, SSTI, DNS zone transfers, and much more. Along with these, it performs OSINT techniques, directory fuzzing, dorking, ports scanning, screenshots, nuclei scan on your target.
+It also performs various vulnerability checks like **XSS**, **Open** **Redirects**, **SSRF**, **CRLF**, **LFI**, **SQLi**, **SSL tests**, **SSTI**, **DNS zone transfers**, and much more. Along with these, it performs **OSINT** techniques, directory **fuzzing**, **dorking**, **ports scanning**, **screenshots**, **nuclei scan** on your target.
+
+**It was also developed with the aim of automating and facilitating the work of cybersecurity professionals.**
 
 - [Translate to português:](https://github.com/blackcode666/recondns/blob/main/lang/README-PT-BR.md)
 
