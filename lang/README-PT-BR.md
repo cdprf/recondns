@@ -24,7 +24,7 @@
 </p>
 
  
-<h3 align="center">Sumário</h3>
+<h3 align="center">Sobre</h3>
 
 **ReconDNS** automatiza todo o processo de reconhecimento para você. Realiza o trabalho de enumeração de subdomínios, junto com diversos checks de várias vulnerabilidades e o máximo de informação possível do seu alvo.
 
