@@ -63,7 +63,7 @@ Então, o que está esperando? Bora! :boom:
 - [Isenção de responsabilidade](#disclaimer)
 
 
-# Mindmap/Workflow
+# Mapa Mental
 
 ![Mindmap](https://github.com/blackcode666/recondns/blob/main/images/mindmapDNS.jpg)
 
