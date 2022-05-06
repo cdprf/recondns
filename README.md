@@ -517,7 +517,7 @@ reset='\033[0m'
 
 # Mindmap/Workflow
 
-![Mindmap](images/mindmapv2.png)
+![Mindmap](https://github.com/blackcode666/recondns/blob/main/images/mindmapDNS.jpg)
 
 ## Data Keep
 
