@@ -28,7 +28,7 @@
 
 **ReconDNS** automatiza todo o processo de reconhecimento para você. Realiza o trabalho de enumeração de subdomínios, junto com diversos checks de várias vulnerabilidades e o máximo de informação possível do seu alvo.
 
-O **ReconDNS** utiliza de várias técnicas (passive, bruteforce, permutations, certificate transparency, source code scraping, analytics, DNS records...) na enumeração dos subdomínios que ajudam você a selecionar os subdomínios mais interesantes para que você saia na frente.
+O **ReconDNS** utiliza de várias técnicas (passive, bruteforce, permutations, certificate transparency, source code scraping, analytics, DNS records...) na enumeração dos subdomínios que ajudam você a selecionar os subdomínios mais interesantes para suas analises e pentester.
 
 O mesmo também realiza vários checks de vulnerabilidades como XSS, Open Redirects, SSRF, CRLF, LFI, SQLi, testes de SSL, DNS Zone Transfers e muito mais. Além disso é perfomado diversas técnicas de OSINT, fuzzing de diretórios, dorking, escaneamento de portas e scan do nuclei no seu alvo.
 
