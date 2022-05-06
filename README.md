@@ -114,7 +114,7 @@ git clone https://github.com/blackcode666/recondns.git
 cd recondns/
 chmod +x install.sh
 ./install.sh
-./recondns.sh -d **target.com** -r
+./recondns.sh -d target.com -r
 ```
 
 ## b) Docker Image 🐳 (3 options)
