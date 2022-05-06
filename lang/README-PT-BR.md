@@ -63,6 +63,10 @@ Então, o que está esperando? Bora! :boom:
 - [Isenção de responsabilidade](#disclaimer)
 
 
+# Mindmap/Workflow
+
+![Mindmap](https://github.com/blackcode666/recondns/blob/main/images/mindmapDNS.jpg)
+
 <h1 align="center">
   <br>
   <a href="https://github.com/blackcode666/recondns"><img src="https://github.com/blackcode666/recondns/blob/main/images/logo_Omar_Pentester.png" alt="recondns"></a>
