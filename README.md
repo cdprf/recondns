@@ -116,7 +116,7 @@ git clone https://github.com/blackcode666/recondns.git
 cd recondns/
 chmod +x install.sh
 ./install.sh
-./recondns.sh -d target.com -r
+./recondns.sh -d example.com -r
 ```
 
 ## b) Docker Image 🐳 (3 options)
@@ -389,7 +389,7 @@ reset='\033[0m'
 **To perform a full recon on single target**
 
 ```bash
-./recondns.sh -d target.com -r
+./recondns.sh -d example.com -r
 ```
 
 **To perform a full recon on a list of targets**
@@ -401,7 +401,7 @@ reset='\033[0m'
 **Perform full recon with more time intense tasks** *(VPS intended only)*
 
 ```bash
-./recondns.sh -d target.com -r --deep -o /output/directory/
+./recondns.sh -d example.com -r --deep -o /output/directory/
 ```
 
 **Perform recon in a multi domain target**
@@ -413,13 +413,13 @@ reset='\033[0m'
 **Perform recon with axiom integration**
 
 ```bash
-./recondns.sh -d target.com -r -v
+./recondns.sh -d example.com -r -v
 ```
 
  **Perform all steps (whole recon + all attacks) a.k.a. YOLO mode**
 
 ```bash
-./recondns.sh -d target.com -a
+./recondns.sh -d example.com -a
 ```
 
 **Show help section**
