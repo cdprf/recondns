@@ -8,16 +8,6 @@
 
 
 <p align="center">
-  <a href="https://github.com/blackcode666/recondns/releases/tag/v2.2.2">
-    <img src="https://img.shields.io/badge/release-v2.2.2-green">
-  </a>
-   </a>
-  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-      <img src="https://img.shields.io/badge/license-GPL3-_red.svg">
-  </a>
-    <a href="https://github.com/blackcode666/recondns/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/blackcode666/recondns.svg">
-  </a>
   <a href="https://github.com/blackcode666/recondns/wiki">
     <img src="https://img.shields.io/badge/doc-wiki-blue.svg">
   </a>
